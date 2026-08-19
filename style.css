@@ -7,6 +7,7 @@ html, body{
 }
 .container{
     height: 100vh;
+   
     display: flex;
     flex-direction: row;
 }
@@ -30,6 +31,7 @@ img{
 .form-container{
     flex: 0 0 60%;
     height: 100%;
+    
     display: flex;
    flex-direction: column;
 }
@@ -45,7 +47,30 @@ img{
 }
 .center{
     flex:0 0 65%;
+    padding: 20px;
 }
-.bottom{
-     
+#lets-do-this{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.container-insideForm{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.container-insideForm div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
