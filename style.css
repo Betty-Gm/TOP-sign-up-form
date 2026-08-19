@@ -2,6 +2,9 @@ html, body{
     margin: 0;
     height: 100%;
 }
+*{
+    box-sizing: border-box;
+}
 .container{
     height: 100vh;
     display: flex;
@@ -26,5 +29,23 @@ img{
 }
 .form-container{
     flex: 0 0 60%;
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+}
+.top{
+    background-color: #E5E7EB ;
+    flex: 0 0 35%;
+    padding: 40px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    
    
+}
+.center{
+    flex:0 0 65%;
+}
+.bottom{
+     
 }
