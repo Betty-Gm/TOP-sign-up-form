@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.photo-container{
+    height: 100%;
+    flex: 0 0 40%;
+    position: relative;
+
+}
+.photo-container span{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.form-container{
+    flex: 0 0 60%;
+   
+}
